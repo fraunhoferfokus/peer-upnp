@@ -7,6 +7,7 @@ Setup
 =====
 
   * use `npm install peer-upnp` to install the module.
+  * run example with `node node_modules/peer-upnp/test/binary-light.js` to create a sample service or `node node_modules/peer-upnp/test/upnp-test.js` to discover services on the network.
   
 Usage
 =====
@@ -161,8 +162,7 @@ service.set("Target",0);
 License
 =======
 
-Free for non commercial use released under the GNU Lesser General Public License v3.0
-See LICENSE file.
+Free for non commercial use released under the GNU Lesser General Public License v3.0, See LICENSE file.
 
 Contact us for commecial use famecontact@fokus.fraunhofer.de
 
