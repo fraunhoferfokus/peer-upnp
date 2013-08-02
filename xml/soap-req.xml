@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+	<s:Body>
+		<u:{{=actionName}} xmlns:u="{{=serviceType}}">
+		{{ for(var name in inputs){ 
+			var value = inputs[name];
+		}}
+			<{{= name}}>{{=value}}</{{= name}}>
+		{{ } }}
+		</u:{{=actionName}}>
+	</s:Body>
+</s:Envelope>
