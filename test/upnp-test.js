@@ -21,7 +21,7 @@
  *
  ******************************************************************************/
 
-var upnp = require("peer-upnp");
+var upnp = require("../lib/peer-upnp");
 var UUID = require("node-uuid");
 var os = require("os");
 var http = require("http");

@@ -21,7 +21,7 @@
  *
  ******************************************************************************/
 
-var upnp = require("peer-upnp");
+var upnp = require("../lib/peer-upnp");
 var http = require("http");
 var server = http.createServer();
 var PORT = 8080;
