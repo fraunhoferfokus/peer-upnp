@@ -10,7 +10,7 @@
 	"main" : "index",
 	"dependencies" : {
 		"xml2js" : "git://github.com/COLTRAM/node-xml2js.git",
-		"peer-ssdp": "git://github.com/COLTRAM/peer-ssdp.git",
+		"peer-ssdp": "*",
 		"ejs": "0.8.4",
 		"node-uuid": "1.4.0"
 	},
