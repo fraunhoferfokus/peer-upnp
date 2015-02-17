@@ -6,15 +6,16 @@
 		"name" : "Louay Bassbouss",
 		"email" : "louay.bassbouss@fokus.fraunhofer.de"
 	},
+	"repository": "https://github.com/fraunhoferfokus/peer-upnp.git",
 	"keywords" : [ "upnp", "dlna", "ssdp", "soap", "nsd" ],
 	"main" : "index",
 	"dependencies" : {
-		"xml2js" : "git://github.com/COLTRAM/node-xml2js.git",
-		"peer-ssdp": "git://github.com/COLTRAM/peer-ssdp.git",
+		"xml2js" : "git://github.com/fraunhoferfokus/node-xml2js.git",
+		"peer-ssdp": "0.0.3",
 		"ejs": "0.8.4",
 		"node-uuid": "1.4.0"
 	},
 	"readmeFilename" : "Readme.md",
-	"_id" : "peer-upnp@0.0.1",
+	"_id" : "peer-upnp@0.0.2",
 	"_from" : "peer-upnp@*"
 }
