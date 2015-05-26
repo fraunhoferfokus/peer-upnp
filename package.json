@@ -10,7 +10,7 @@
 	"keywords" : [ "upnp", "dlna", "ssdp", "soap", "nsd" ],
 	"main" : "index",
 	"dependencies" : {
-		"xml2js" : "git://github.com/fraunhoferfokus/node-xml2js.git",
+		"xml2js" : "git+https://github.com/fraunhoferfokus/node-xml2js.git",
 		"peer-ssdp": "0.0.3",
 		"ejs": "0.8.4",
 		"node-uuid": "1.4.0"
