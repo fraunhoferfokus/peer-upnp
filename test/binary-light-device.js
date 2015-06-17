@@ -77,19 +77,19 @@ var service = device.createService({
 			this.set("Target", inputs.NewTargetValue); 
 			// notify state change of the state variable to all subscribers
 			this.notify("Target");
-			this.get("Target") == "1"? console.log("Light is ON"):console.log("Light is OFF");
+			this.get("Target") == "1"? console.log("Change Light to ON"):console.log("Change Light to OFF");
 		},
 		GetStatus: function(inputs){
 			// the result is the value of the state variable Target
 			return {ResultStatus: this.get("Target")}
-		},
+		}
 	},
 	// Service Description. this will be converted to XML 
 	description: {
 		actions: {
 			GetTarget: {
 				outputs: {
-					RetTargetValue: "Target", // Target is the name of the state variable
+					RetTargetValue: "Target" // Target is the name of the state variable
 				}
 			},
 			SetTarget: {
@@ -99,7 +99,7 @@ var service = device.createService({
 			},
 			GetStatus: {
 				outputs: {
-					ResultStatus: "Status",
+					ResultStatus: "Status"
 				}
 			}
 		},

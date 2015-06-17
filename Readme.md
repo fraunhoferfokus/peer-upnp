@@ -7,8 +7,11 @@ Setup
 =====
 
   * use `npm install peer-upnp` to install the module.
-  * run example with `node node_modules/peer-upnp/test/binary-light.js` to create a sample service or `node node_modules/peer-upnp/test/upnp-test.js` to discover services on the network.
-  
+  * run `binary light` example:
+     1. use `node node_modules/peer-upnp/test/binary-light-device.js` to create and advertise a UPnP `BinaryLight` Device with `SwitchPower` service
+     2. use `node node_modules/peer-upnp/test/binary-light-client.js` that discovers `BinaryLight` devices and uses `SwitchPower` Service to control the light.
+  * or run the other example using `node node_modules/peer-upnp/test/upnp-test.js` to discover UPnP services on the network.
+
 Usage
 =====
 

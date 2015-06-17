@@ -26,7 +26,7 @@ var UUID = require("node-uuid");
 var os = require("os");
 var http = require("http");
 var server = http.createServer();
-var PORT = 8080;
+var PORT = 8082;
 server.listen(PORT);
 
 var peer = upnp.createPeer({
