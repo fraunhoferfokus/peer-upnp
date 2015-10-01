@@ -11,7 +11,7 @@
 	"main" : "index",
 	"dependencies" : {
 		"xml2js" : "git+https://github.com/fraunhoferfokus/node-xml2js.git",
-		"peer-ssdp": "0.0.4",
+		"peer-ssdp": "git+https://github.com/mwittig/peer-ssdp.git",
 		"ejs": "0.8.4",
 		"node-uuid": "1.4.0"
 	},
