@@ -1,7 +1,7 @@
 {
 	"name" : "peer-upnp",
 	"description" : "Nodejs implementation of the UPnP Device Architecture 1.1",
-	"version" : "0.0.4",
+	"version" : "0.0.5",
 	"author" : {
 		"name" : "Louay Bassbouss",
 		"email" : "louay.bassbouss@fokus.fraunhofer.de"
@@ -16,6 +16,6 @@
 		"node-uuid": "1.4.0"
 	},
 	"readmeFilename" : "Readme.md",
-	"_id" : "peer-upnp@0.0.4",
+	"_id" : "peer-upnp@0.0.5",
 	"_from" : "peer-upnp@*"
 }
