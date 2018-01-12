@@ -22,7 +22,6 @@
  ******************************************************************************/
 
 var upnp = require("../lib/peer-upnp");
-var UUID = require("node-uuid");
 var os = require("os");
 var http = require("http");
 var server = http.createServer();
@@ -71,7 +70,6 @@ setTimeout(function(){
 
 
 var device = peer.createDevice({
-	//uuid: UUID.v4(),
 	autoAdvertise: false,
 	uuid: "6bd5eabd-b7c8-4f7b-ae6c-a30ccdeb5988",
 	productName: "Famium",
