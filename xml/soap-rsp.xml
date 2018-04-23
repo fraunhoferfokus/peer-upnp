@@ -6,7 +6,7 @@
 		<% for(var name in outputs){ 
 			var value = outputs[name];
 		%>
-			<<%= name%>><%=value%></<%= name%>>
+			<<%= name%>><%-value%></<%= name%>>
 		<% } %>
 		</u:<%=actionName%>Response>
 	<% } else if(typeof error != "undefined") { %>
