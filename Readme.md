@@ -165,8 +165,10 @@ service.set("Target",0);
 License
 =======
 
-Free for non commercial use released under the GNU Lesser General Public License v3.0, See LICENSE file.
+Released under the GNU Lesser General Public License v3.0, See LICENSE file.
 
-Contact us for commecial use famecontact@fokus.fraunhofer.de
+Contact: famecontact@fokus.fraunhofer.de
 
 Copyright (c) 2013 Fraunhofer FOKUS
+
+All Rights Reserved
