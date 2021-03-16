@@ -167,8 +167,8 @@ License
 
 Released under the GNU Lesser General Public License v3.0, See LICENSE file.
 
+Copyright (c) 2013 Fraunhofer Gesellschaft zur Foerderung der angewandten Forschung e.V. acting on behalf of its Fraunhofer Institut FOKUS. 
+
+All rights reserved
+
 Contact: famecontact@fokus.fraunhofer.de
-
-Copyright (c) 2013 Fraunhofer FOKUS
-
-All Rights Reserved
