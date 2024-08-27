@@ -19,7 +19,7 @@
 		"xml2js": "git+https://github.com/fraunhoferfokus/node-xml2js.git",
 		"peer-ssdp": "0.0.5",
 		"ejs": "3.1.10",
-		"node-uuid": "1.4.0"
+		"node-uuid": "1.4.8"
 	},
 	"readmeFilename": "Readme.md",
 	"_id": "peer-upnp@0.0.6",
