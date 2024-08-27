@@ -18,7 +18,7 @@
 	"dependencies": {
 		"xml2js": "git+https://github.com/fraunhoferfokus/node-xml2js.git",
 		"peer-ssdp": "0.0.5",
-		"ejs": "2.5.7",
+		"ejs": "3.1.10",
 		"node-uuid": "1.4.0"
 	},
 	"readmeFilename": "Readme.md",
